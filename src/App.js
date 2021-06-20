@@ -8,7 +8,7 @@ const FormulaParser = require('hot-formula-parser').Parser;
 const parser = new FormulaParser();
 
 function App() {
-  const [display, setDisplay] = useState('20');
+  const [display, setDisplay] = useState('0');
   const [previousOperation, setPreviousOperation] = useState(null);
   const [canUseDot, setCanUseDot] = useState(true);
 
