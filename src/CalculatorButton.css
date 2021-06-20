@@ -1,0 +1,26 @@
+.calculatorButton {
+    flex: 1 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+}
+
+.calculatorButton--long {
+    flex: 2 0 0;
+}
+
+.calculatorButton--dark {
+    background: #ccc;
+}
+
+.calculatorButton--theme {
+    background: rgb(116, 40, 187);
+    color: white;
+    font-weight: bold;
+}
